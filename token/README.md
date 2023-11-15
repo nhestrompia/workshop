@@ -1,6 +1,6 @@
 <!-- # 🪙 Token -->
 <img alt="workshop/token" width="1412" src="../.resources/token.png">
-
+Aleo learn and earn workshop november 2023
 ## Summary
 
 A transparent & shielded custom token in Leo.
@@ -11,7 +11,6 @@ Follow the [Leo Installation Instructions](https://developer.aleo.org/leo/instal
 
 This token program can be run using the following bash script. Locally, it will execute Leo program functions to mint and transfer tokens publicly and privately.
 
-
 ```bash
 cd token
 ./run.sh
@@ -21,12 +20,15 @@ The `.env` file contains a private key and address. This is the account that wil
 
 ## Walkthrough
 
-* [Step 0: Public Mint](#step0)
-* [Step 1: Private Mint](#step1)
-* [Step 2: Public Transfer](#step2)
-* [Step 3: Private Transfer](#step3)
-* [Step 4: Public to Private Transfer](#step4)
-* [Step 5: Private to Public Transfer](#step5)
+- [Summary](#summary)
+- [How to Run](#how-to-run)
+- [Walkthrough](#walkthrough)
+- [ Public Mint](#-public-mint)
+- [ Private Mint](#-private-mint)
+- [ Public Transfer](#-public-transfer)
+- [ Private Transfer](#-private-transfer)
+- [ Public to Private Transfer](#-public-to-private-transfer)
+- [ Private to Public Transfer](#-private-to-public-transfer)
 
 We'll be conducting a transfer between two parties.
 
